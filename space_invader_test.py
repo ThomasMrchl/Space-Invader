@@ -13,7 +13,7 @@ def game():
     couleuror = (252, 252, 0)
 
     # création d'une fenêtre de 800 par 600
-    screen = pygame.display.set_mode((800,600))
+    screen = pygame.display.set_mode((800,600), pygame.NOFRAME)
     pygame.display.set_caption("Space Invaders")
     # chargement de l'image de fond
     fond = pygame.image.load('background.png').convert_alpha()
@@ -115,7 +115,7 @@ def menu():
     couleuror = (252, 252, 0)
 
     # création d'une fenêtre de 800 par 600
-    screen = pygame.display.set_mode((800,600))
+    screen = pygame.display.set_mode((800,600), pygame.NOFRAME)
     pygame.display.set_caption("Space Invaders")
     # chargement de l'image de fond
     fond = pygame.image.load('background2.png').convert_alpha()
@@ -169,7 +169,7 @@ def rules():
     couleuror = (252, 252, 0)
 
     # création d'une fenêtre de 800 par 600
-    screen = pygame.display.set_mode((800,600))
+    screen = pygame.display.set_mode((800,600), pygame.NOFRAME)
     pygame.display.set_caption("Space Invaders")
     # chargement de l'image de fond
     fond = pygame.image.load('background.png').convert_alpha()
